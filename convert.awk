@@ -8,7 +8,7 @@ BEGIN {
         fnprev = sprintf("%04d.html",j-1)
         fnnext = sprintf("%04d.html",j+1)
         print "<!DOCTYPE HTML>" > "chp/"fn
-        print "<html><body><style> p{font-size: 24pt;} </style>" >> "chp/"fn
+        print "<html><body><style> p{font-size: 32pt;} </style>" >> "chp/"fn
 
         print x >> "chp/"fn
         print "<p><a href='"fnprev"'>next: " fnprev "</a></p>" >> "chp/"fn
